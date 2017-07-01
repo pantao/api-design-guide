@@ -1,0 +1,681 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>命名约定 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="design-patterns.html" />
+    
+    
+    <link rel="prev" href="errors.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="resource-oriented-design.html">
+            
+                <a href="resource-oriented-design.html">
+            
+                    
+                    面向资源的设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="resource-names.html">
+            
+                <a href="resource-names.html">
+            
+                    
+                    资源名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-methods.html">
+            
+                <a href="standard-methods.html">
+            
+                    
+                    标准方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="custom-methods.html">
+            
+                <a href="custom-methods.html">
+            
+                    
+                    自定义方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="standard-fields.html">
+            
+                <a href="standard-fields.html">
+            
+                    
+                    标准字段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="errors.html">
+            
+                <a href="errors.html">
+            
+                    
+                    错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="naming-conventions.html">
+            
+                <a href="naming-conventions.html">
+            
+                    
+                    命名约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="design-patterns.html">
+            
+                <a href="design-patterns.html">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="documentation.html">
+            
+                <a href="documentation.html">
+            
+                    
+                    文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="proto3.html">
+            
+                <a href="proto3.html">
+            
+                    
+                    使用 proto3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="versioning.html">
+            
+                <a href="versioning.html">
+            
+                    
+                    版本控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="compatibility.html">
+            
+                <a href="compatibility.html">
+            
+                    
+                    兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="directory-structure.html">
+            
+                <a href="directory-structure.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="file-structure.html">
+            
+                <a href="file-structure.html">
+            
+                    
+                    文件结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="glossary.html">
+            
+                <a href="glossary.html">
+            
+                    
+                    词汇表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="rfc2119.html">
+            
+                <a href="rfc2119.html">
+            
+                    
+                    RFC2119
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >命名约定</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x547D;&#x540D;&#x7EA6;&#x5B9A;">&#x547D;&#x540D;&#x7EA6;&#x5B9A;</h1>
+<p>&#x4E3A;&#x4E86;&#x5728;&#x957F;&#x671F;&#x548C;&#x5927;&#x91CF;&#x4F7F;&#x7528;&#x7684; API &#x4E2D;&#x63D0;&#x4F9B;&#x7EDF;&#x4E00;&#x7684;&#x5F00;&#x53D1;&#x4F53;&#x9A8C;&#xFF0C;API &#x4E2D;&#x7684;&#x6240;&#x6709;&#x540D;&#x5B57; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> :</p>
+<ul>
+<li>&#x7B80;&#x5355;</li>
+<li>&#x76F4;&#x89C2;</li>
+<li>&#x4E00;&#x81F4;</li>
+</ul>
+<p>&#x6B64;&#x6587;&#x7AE0;&#x8BA8;&#x8BBA;&#x4E86;&#x63A5;&#x53E3;&#x3001;&#x8D44;&#x6E90;&#x3001;&#x96C6;&#x5408;&#x3001;&#x65B9;&#x6CD5;&#x548C;&#x6D88;&#x606F;&#x7684;&#x540D;&#x5B57;&#x3002;</p>
+<p>&#x56E0;&#x4E3A;&#x5F88;&#x591A;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x6BCD;&#x8BED;&#x5E76;&#x4E0D;&#x662F;&#x82F1;&#x8BED;&#xFF0C;&#x8FD9;&#x4E9B;&#x547D;&#x540D;&#x7EA6;&#x5B9A;&#x901A;&#x8FC7;&#x9F13;&#x52B1;&#x4F7F;&#x7528;&#x7B80;&#x5355;&#x3001;&#x7EDF;&#x4E00;&#x7684;&#x77ED;&#x8BCD;&#x6C47;&#x6765;&#x547D;&#x540D;&#x65B9;&#x6CD5;&#x548C;&#x8D44;&#x6E90;&#x6765;&#x4FDD;&#x8BC1;&#x5927;&#x90E8;&#x5206;&#x5F00;&#x53D1;&#x8005;&#x80FD;&#x591F;&#x5BB9;&#x6613;&#x7406;&#x89E3; API&#x3002;</p>
+<ul>
+<li>API &#x4E2D;&#x7684;&#x540D;&#x5B57; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x7F8E;&#x5F0F;&#x82F1;&#x8BED;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;license&#xFF08;&#x4E0D;&#x662F; licence&#xFF09;&#xFF0C;color&#xFF08;&#x4E0D;&#x662F; colour&#xFF09;&#x3002;</li>
+<li>&#x4F7F;&#x7528;&#x5E38;&#x7528;&#x7684;&#x7B80;&#x77ED;&#x5F62;&#x5F0F;&#x6216;&#x7F29;&#x5199;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A; API &#x6BD4; Application Programming Interface &#x66F4;&#x597D;&#x3002;</li>
+<li>&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x76F4;&#x63A5;&#x3001;&#x719F;&#x6089;&#x7684;&#x672F;&#x8BED;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&#x63CF;&#x8FF0;&#x5BF9;&#x8D44;&#x6E90;&#x7684;&#x5220;&#x9664;&#xFF08;&#x9500;&#x6BC1;&#xFF09;&#x65F6;&#xFF0C;delete &#x6BD4; erase &#x66F4;&#x597D;&#x3002;</li>
+<li>&#x5BF9;&#x76F8;&#x540C;&#x7684;&#x6982;&#x5FF5;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x540D;&#x5B57;&#x6216;&#x672F;&#x8BED;&#xFF0C;&#x5305;&#x62EC;&#x5728; API &#x4E2D;&#x5171;&#x4EAB;&#x7684;&#x6982;&#x5FF5;&#x3002;</li>
+<li>&#x907F;&#x514D;&#x540D;&#x5B57;&#x91CD;&#x7528;&#xFF0C;&#x5BF9;&#x4E0D;&#x540C;&#x7684;&#x6982;&#x5FF5;&#x8981;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x540D;&#x5B57;&#x3002;</li>
+<li>&#x907F;&#x514D;&#x4F7F;&#x7528;&#x5728; API &#x4E0A;&#x4E0B;&#x6587;&#x4E2D;&#x4F1A;&#x9020;&#x6210;&#x6DF7;&#x4E71;&#x7684;&#x8FC7;&#x4E8E;&#x901A;&#x7528;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x5B83;&#x4EEC;&#x4F1A;&#x5BFC;&#x81F4;&#x5BF9; API &#x6982;&#x5FF5;&#x7684;&#x8BEF;&#x89E3;&#x3002;&#x5E94;&#x8BE5;&#x9009;&#x62E9;&#x80FD;&#x591F;&#x7CBE;&#x786E;&#x63CF;&#x8FF0;&#x6982;&#x5FF5;&#x7684;&#x540D;&#x5B57;&#x3002;&#x8FD9;&#x5BF9;&#x4E8E;&#x5B9A;&#x4E49;&#x4E00;&#x9636; API &#x5143;&#x7D20;&#x7684;&#x540D;&#x79F0;&#x5C24;&#x5176;&#x91CD;&#x8981;&#x3002;&#x56E0;&#x4E3A;&#x540D;&#x5B57;&#x4E0E;&#x4E0A;&#x4E0B;&#x6587;&#x76F8;&#x5173;&#xFF0C;&#x6240;&#x4EE5;&#x5E76;&#x6CA1;&#x6709;&#x660E;&#x786E;&#x7684;&#x540D;&#x5B57;&#x9ED1;&#x540D;&#x5355;&#x3002;Instance, info &#x548C; service &#x662F;&#x4F1A;&#x4EA7;&#x751F;&#x95EE;&#x9898;&#x7684;&#x540D;&#x5B57;&#x3002;&#x5E94;&#x8BE5;&#x9009;&#x62E9;&#x80FD;&#x591F;&#x660E;&#x786E;&#x8868;&#x8FBE;&#x51FA; API &#x6982;&#x5FF5;&#xFF08;&#x4F8B;&#xFF1A;instance &#x8868;&#x793A;&#x4EC0;&#x4E48;&#x7684;&#x5B9E;&#x4F8B;&#xFF1F;&#xFF09;&#x5E76;&#x4E14;&#x5BB9;&#x6613;&#x4E0E;&#x5176;&#x4ED6;&#x76F8;&#x5173;&#x6982;&#x5FF5;&#x6709;&#x533A;&#x5206;&#xFF08;&#x4F8B;&#xFF1A;alert &#x7684;&#x610F;&#x601D;&#x662F;&#x89C4;&#x5219;&#xFF0C;&#x4FE1;&#x53F7;&#x8FD8;&#x662F;&#x901A;&#x77E5;&#xFF1F;&#xFF09;&#x7684;&#x540D;&#x5B57;&#x3002;</li>
+<li>&#x8C28;&#x614E;&#x4F7F;&#x7528;&#x4F1A;&#x4E0E;&#x5E38;&#x7528;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x4E2D;&#x7684;&#x5173;&#x952E;&#x5B57;&#x6709;&#x51B2;&#x7A81;&#x7684;&#x540D;&#x5B57;&#x3002;</li>
+</ul>
+<h2 id="&#x4EA7;&#x54C1;&#x540D;">&#x4EA7;&#x54C1;&#x540D;</h2>
+<p>&#x4EA7;&#x54C1;&#x540D;&#x662F;&#x6307; API &#x7684;&#x4EA7;&#x54C1;&#x8425;&#x9500;&#x540D;&#x79F0;&#xFF0C;&#x4F8B;&#x5982; <em>Google Calendar API</em>&#x3002;&#x5728; API&#x3001;UI&#x3001;&#x6587;&#x6863;&#x3001;&#x670D;&#x52A1;&#x6761;&#x6B3E;&#x3001;&#x7ED3;&#x8D26;&#x5355;&#x548C;&#x5546;&#x4E1A;&#x5408;&#x540C;&#x4E2D;&#x4F7F;&#x7528;&#x7684;&#x4EA7;&#x54C1;&#x540D;&#x79F0; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4E00;&#x81F4;&#x3002;</p>
+<p><a href="glossary.html#google-api" class="glossary-term" title="Google &#x670D;&#x52A1;&#x7684;&#x7F51;&#x7EDC; API&#x3002;&#x5927;&#x90E8;&#x5206;&#x5728; googleapis.com &#x57DF;&#x540D;&#x4E0A;&#x3002;&#x4E0D;&#x5305;&#x62EC;&#x5BA2;&#x6237;&#x7AEF;&#x5E93;&#x548C; SDK &#x7B49;&#x5176;&#x4ED6;&#x7C7B;&#x578B;&#x7684; API&#x3002;">Google API</a> <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4F7F;&#x7528; Google &#x4F5C;&#x4E3A;&#x4EA7;&#x54C1;&#x540D;&#x7684;&#x524D;&#x7F00;&#xFF0C;&#x9664;&#x975E;&#x5B83;&#x4EEC;&#x50CF; Gmail, Nest, Youtube &#x8FD9;&#x79CD;&#x6709;&#x4E0D;&#x540C;&#x7684;&#x54C1;&#x724C;&#x3002;&#x4E00;&#x822C;&#x6765;&#x8BF4;&#x4EA7;&#x54C1;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x7531;&#x4EA7;&#x54C1;&#x548C;&#x5E02;&#x573A;&#x90E8;&#x95E8;&#x51B3;&#x5B9A;&#x3002;</p>
+<p>&#x4E0B;&#x8868;&#x5217;&#x51FA;&#x4E86;&#x6240;&#x6709;&#x76F8;&#x5173; API &#x540D;&#x79F0;&#x53CA;&#x5176;&#x4E00;&#x81F4;&#x6027;&#x7684;&#x793A;&#x4F8B;&#xFF0C;&#x6709;&#x5173;&#x5404;&#x81EA;&#x540D;&#x79F0;&#x53CA;&#x5176;&#x7EA6;&#x5B9A;&#x7684;&#x66F4;&#x591A;&#x8BE6;&#x7EC6;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x770B;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>API &#x540D;</th>
+<th>&#x793A;&#x4F8B;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&#x4EA7;&#x54C1;&#x540D;</td>
+<td>Google Calendar API</td>
+</tr>
+<tr>
+<td>&#x670D;&#x52A1;&#x540D;</td>
+<td>calendar.googleapis.com</td>
+</tr>
+<tr>
+<td>&#x5305;&#x540D;</td>
+<td>google.calendar.v3</td>
+</tr>
+<tr>
+<td>&#x63A5;&#x53E3;&#x540D;</td>
+<td>google.calendar.v3.CalendarService</td>
+</tr>
+<tr>
+<td>&#x8D44;&#x6E90;&#x76EE;&#x5F55;</td>
+<td>//google/calendar/v3</td>
+</tr>
+<tr>
+<td>API &#x540D;</td>
+<td>calendar</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x670D;&#x52A1;&#x540D;">&#x670D;&#x52A1;&#x540D;</h2>
+<p>&#x670D;&#x52A1;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x662F;&#x4E00;&#x4E2A;&#x80FD;&#x591F;&#x88AB;&#x89E3;&#x6790;&#x4E3A;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x7F51;&#x7EDC;&#x5730;&#x5740;&#x7684;&#x5408;&#x6CD5; <a href="http://www.ietf.org/rfc/rfc1035.txt" target="_blank">DNS &#x540D;&#x5B57;</a>&#x3002;&#x516C;&#x6709; <a href="glossary.html#google-api" class="glossary-term" title="Google &#x670D;&#x52A1;&#x7684;&#x7F51;&#x7EDC; API&#x3002;&#x5927;&#x90E8;&#x5206;&#x5728; googleapis.com &#x57DF;&#x540D;&#x4E0A;&#x3002;&#x4E0D;&#x5305;&#x62EC;&#x5BA2;&#x6237;&#x7AEF;&#x5E93;&#x548C; SDK &#x7B49;&#x5176;&#x4ED6;&#x7C7B;&#x578B;&#x7684; API&#x3002;">Google API</a> &#x7684;&#x670D;&#x52A1;&#x540D;&#x9075;&#x5FAA;&#x5982;&#x4E0B;&#x6A21;&#x5F0F;&#xFF1A;<code>xxx.googleapis.com</code>&#x3002;&#x4F8B;&#x5982;&#xFF1A;&#x8C37;&#x6B4C;&#x65E5;&#x5386;&#x7684;&#x670D;&#x52A1;&#x540D;&#x662F; <code>calendar.googleapis.com</code>&#x3002;</p>
+<p>&#x5982;&#x679C;&#x4E00;&#x4E2A; API &#x7531;&#x591A;&#x4E2A;&#x670D;&#x52A1;&#x7EC4;&#x6210;&#xFF0C;&#x5B83;&#x4EEC; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4EE5;&#x80FD;&#x591F;&#x63D0;&#x9AD8;&#x53EF;&#x53D1;&#x73B0;&#x6027;&#x7684;&#x65B9;&#x6CD5;&#x547D;&#x540D;&#x3002;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#x662F;&#x4E3A;&#x8FD9;&#x4E9B;&#x670D;&#x52A1;&#x540D;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x524D;&#x7F00;&#x3002;&#x4F8B;&#x5982;&#x670D;&#x52A1; <code>build.googleapis.com</code> &#x548C; <code>buildresults.googleapis.com</code> &#x90FD;&#x662F; Google Build API &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;</p>
+<h2 id="&#x5305;&#x540D;">&#x5305;&#x540D;</h2>
+<p>&#x5728; <code>.proto</code> &#x6587;&#x4EF6;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x5305;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4E0E;&#x4EA7;&#x54C1;&#x540D;&#x548C;&#x670D;&#x52A1;&#x540D;&#x76F8;&#x540C;&#x3002;&#x6709;&#x7248;&#x672C;&#x53F7;&#x7684;&#x5305;&#x540D; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4EE5;&#x7248;&#x672C;&#x53F7;&#x7ED3;&#x5C3E;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>// Google Calendar API
+package google.calendar.v3;
+</code></pre><p>&#x4E0D;&#x4E0E;&#x670D;&#x52A1;&#x76F4;&#x63A5;&#x5173;&#x8054;&#x7684;&#x62BD;&#x8C61; API&#xFF0C;&#x4F8B;&#x5982; Google Watcher API <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x4E0E;&#x4EA7;&#x54C1;&#x540D;&#x76F8;&#x540C;&#x7684; <code>proto</code> &#x5305;&#x540D;&#xFF1A;</p>
+<pre><code>// Google Watcher API
+package google.watcher.v1;
+</code></pre><p>&#x5728; <code>.proto</code> &#x6587;&#x4EF6;&#x4E2D;&#x6307;&#x5B9A;&#x7684; Java &#x5305;&#x540D; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x7B26;&#x5408;&#x6807;&#x51C6; Java &#x5305;&#x540D;&#x7684;&#x524D;&#x7F00;&#xFF08;<code>com.</code>, <code>edu.</code>, <code>net.</code> &#x7B49;&#xFF09;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<pre><code>package google.calendar.v3;
+// &#x6307;&#x5B9A; Java &#x5305;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x4F7F;&#x7528;&#x6807;&#x51C6;&#x524D;&#x7F00; &quot;com.&quot;
+option java_package = &quot;com.google.calendar.v3&quot;;
+</code></pre><h2 id="&#x96C6;&#x5408;-id">&#x96C6;&#x5408; ID</h2>
+<p><a href="resource-names.html">&#x96C6;&#x5408; ID</a> <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x7F8E;&#x5F0F;&#x82F1;&#x8BED;&#x7684;&#x3001;&#x590D;&#x6570;&#x5F62;&#x5F0F;&#x7684;&#x3001;&#x9996;&#x5B57;&#x6BCD;&#x5C0F;&#x5199;&#x7684;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<code>events</code>, <code>children</code> &#x6216; <code>deletedEvents</code>&#x3002;</p>
+<h2 id="&#x63A5;&#x53E3;&#x540D;">&#x63A5;&#x53E3;&#x540D;</h2>
+<p>&#x4E3A;&#x4E86;&#x907F;&#x514D;&#x548C;&#x5F62;&#x5982; <code>pubsub.googleapis.com</code> &#x7684;&#x8D44;&#x6E90;&#x540D;&#x6DF7;&#x6DC6;&#xFF0C;&#x672F;&#x8BED; &#x63A5;&#x53E3;&#x540D; &#x6307;&#x7684;&#x662F;&#x5728; <code>.proto</code> &#x6587;&#x4EF6;&#x4E2D;&#x5B9A;&#x4E49; <code>service</code> &#x65F6;&#x4F7F;&#x7528;&#x7684;&#x540D;&#x5B57;&#xFF1A;</p>
+<pre><code>// Library is the interface name.
+service Library {
+  rpc ListBooks(...) returns (...);
+  rpc ...
+}
+</code></pre><p>&#x4F60;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A; <em>&#x670D;&#x52A1;&#x540D;</em> &#x662F;&#x6307;&#x4E00;&#x7EC4; API &#x7684;&#x5177;&#x4F53;&#x5B9E;&#x73B0;&#xFF0C;<em>&#x63A5;&#x53E3;&#x540D;</em> &#x662F;&#x6307;&#x4E00;&#x4E2A; API &#x7684;&#x62BD;&#x8C61;&#x5B9A;&#x4E49;&#x3002;</p>
+<p>&#x63A5;&#x53E3;&#x540D;&#x79F0; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x76F4;&#x89C2;&#x7684;&#x540D;&#x8BCD;&#xFF0C;&#x5982; Calendar &#x6216; Blob&#x3002;<strong>&#x4E0D;&#x5E94;&#x8BE5;&#xFF08;should not&#xFF09;</strong> &#x4E0E;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x4E2D;&#x5DF2;&#x6709;&#x7684;&#x4EFB;&#x4F55;&#x6982;&#x5FF5;&#x6216;&#x8FD0;&#x884C;&#x65F6;&#x5E93;&#x51B2;&#x7A81;&#xFF08;&#x5982;&#xFF1A;File&#xFF09;&#x3002;</p>
+<p>&#x5F53; <em>&#x63A5;&#x53E3;&#x540D;</em> &#x4E0E; API &#x4E2D;&#x5176;&#x4ED6;&#x540D;&#x5B57;&#x51B2;&#x7A81;&#x65F6;&#xFF0C;&#x5E94;&#x8BE5;&#x4E3A;&#x5176;&#x52A0;&#x4E0A;&#x524D;&#x7F00;&#xFF08;&#x5982; <code>Api</code> &#x6216; <code>Service</code>&#xFF09;&#x6765;&#x8FDB;&#x884C;&#x533A;&#x5206;&#x3002;</p>
+<h2 id="&#x65B9;&#x6CD5;&#x540D;">&#x65B9;&#x6CD5;&#x540D;</h2>
+<p>&#x5728;&#x5176; IDL &#x89C4;&#x8303;&#x4E2D;&#xFF0C;&#x670D;&#x52A1; <strong>&#x53EF;&#x4EE5;&#xFF08;may&#xFF09;</strong> &#x5B9A;&#x4E49;&#x4E0E;&#x96C6;&#x5408;&#x548C;&#x8D44;&#x6E90;&#x4E0A;&#x7684;&#x65B9;&#x6CD5;&#x76F8;&#x5BF9;&#x5E94;&#x7684;&#x4E00;&#x4E2A;&#x6216;&#x591A;&#x4E2A;RPC&#x65B9;&#x6CD5;&#x3002;&#x65B9;&#x6CD5;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x9075;&#x5FAA;&#x50CF; <code>VerbNoun</code> &#x8FD9;&#x6837;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x7684;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;&#x7684;&#x547D;&#x540D;&#x7EA6;&#x5B9A;&#xFF0C;&#x5176;&#x4E2D;&#x540D;&#x8BCD;&#xFF08;Noun&#xFF09;&#x901A;&#x5E38;&#x662F;&#x8D44;&#x6E90;&#x7C7B;&#x578B;&#x3002;</p>
+<table>
+<thead>
+<tr>
+<th>&#x52A8;&#x8BCD;&#xFF08;Verb&#xFF09;</th>
+<th>&#x540D;&#x8BCD;&#xFF08;Noun&#xFF09;</th>
+<th>&#x65B9;&#x6CD5;&#x540D;</th>
+<th>&#x8BF7;&#x6C42;&#x4FE1;&#x606F;</th>
+<th>&#x54CD;&#x5E94;&#x4FE1;&#x606F;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>List</td>
+<td>Book</td>
+<td>ListBooks</td>
+<td>ListBooksRequest</td>
+<td>ListBooksResponse</td>
+</tr>
+<tr>
+<td>Get</td>
+<td>Book</td>
+<td>GetBook</td>
+<td>GetBookRequest</td>
+<td>Book</td>
+</tr>
+<tr>
+<td>Create</td>
+<td>Book</td>
+<td>CreateBook</td>
+<td>CreateBookRequest</td>
+<td>Book</td>
+</tr>
+<tr>
+<td>Update</td>
+<td>Book</td>
+<td>UpdateBook</td>
+<td>UpdateBookRequest</td>
+<td>Book</td>
+</tr>
+<tr>
+<td>Rename</td>
+<td>Book</td>
+<td>RenameBook</td>
+<td>RenameBookRequest</td>
+<td>RenameBookResponse</td>
+</tr>
+<tr>
+<td>Delete</td>
+<td>Book</td>
+<td>DeleteBook</td>
+<td>DeleteBookRequest</td>
+<td>google.protobuf.Empty</td>
+</tr>
+</tbody>
+</table>
+<h2 id="&#x6D88;&#x606F;&#x540D;">&#x6D88;&#x606F;&#x540D;</h2>
+<p>RPC &#x65B9;&#x6CD5;&#x7684;&#x8BF7;&#x6C42;&#x4E0E;&#x54CD;&#x5E94;&#x6D88;&#x606F; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4EE5;&#x65B9;&#x6CD5;&#x540D;&#x5206;&#x522B;&#x52A0;&#x4E0A; <code>Request</code> &#x548C; <code>Response</code> &#x7684;&#x65B9;&#x5F0F;&#x547D;&#x540D;&#x3002;&#x9664;&#x975E;&#x65B9;&#x6CD5;&#x7684;&#x8BF7;&#x6C42;&#x6216;&#x54CD;&#x5E94;&#x7C7B;&#x578B;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ul>
+<li>&#x7A7A;&#x6D88;&#x606F;&#xFF08;&#x4F7F;&#x7528; <code>google.protobuf.Empty</code>&#xFF09;</li>
+<li>&#x8D44;&#x6E90;&#x7C7B;&#x578B;</li>
+<li>&#x4EE3;&#x8868;&#x4E00;&#x79CD;&#x64CD;&#x4F5C;&#x7684;&#x8D44;&#x6E90;</li>
+</ul>
+<h2 id="&#x679A;&#x4E3E;&#x540D;">&#x679A;&#x4E3E;&#x540D;</h2>
+<p>&#x679A;&#x4E3E;&#x7C7B;&#x578B;&#x7684;&#x540D;&#x5B57; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4F7F;&#x7528;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x7684;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;&#x3002;</p>
+<p>&#x679A;&#x4E3E;&#x503C; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4EE5;&#x4E0B;&#x5212;&#x7EBF;&#x5206;&#x9694;&#x4E14;&#x5B57;&#x6BCD;&#x5168;&#x90E8;&#x5927;&#x5199;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x547D;&#x540D;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;<code>CAPITALIZED_NAMES_WITH_UNDERSCORES</code>&#xFF09;&#x3002;&#x6BCF;&#x4E2A;&#x679A;&#x4E3E;&#x503C; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4EE5;&#x5206;&#x53F7;&#x800C;&#x4E0D;&#x662F;&#x9017;&#x53F7;&#x7ED3;&#x5C3E;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x503C; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x547D;&#x540D;&#x4E3A; <code>ENUM_TYPE_UNSPECIFIED</code>&#xFF0C;&#x7528;&#x4E8E;&#x5F53;&#x6CA1;&#x6709;&#x660E;&#x786E;&#x6307;&#x5B9A;&#x679A;&#x4E3E;&#x503C;&#x65F6;&#x8FD4;&#x56DE;&#x3002;</p>
+<pre><code>enum FooBar {
+  // &#x7B2C;&#x4E00;&#x4E2A;&#x8868;&#x793A;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x5E76;&#x4E14;&#x4E00;&#x5B9A;&#x7B49;&#x4E8E; 0
+  FOO_BAR_UNSPECIFIED = 0;
+  FIRST_VALUE = 1;
+  SECOND_VALUE = 2;
+}
+</code></pre><h2 id="&#x5B57;&#x6BB5;&#x540D;">&#x5B57;&#x6BB5;&#x540D;</h2>
+<p>&#x5728; <code>.proto</code> &#x6587;&#x4EF6;&#x4E2D;&#x5B9A;&#x4E49;&#x7684;&#x5B57;&#x6BB5;&#x540D; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4EE5;&#x4E0B;&#x5212;&#x7EBF;&#x5206;&#x9694;&#x4E14;&#x5B57;&#x6BCD;&#x5168;&#x90E8;&#x5C0F;&#x5199;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x547D;&#x540D;&#xFF08;&#x4F8B;&#x5982;&#xFF1A;<code>lower_case_underscore_separated_names</code>&#xFF09;&#x3002;&#x8FD9;&#x4E9B;&#x540D;&#x5B57;&#x4F1A;&#x9075;&#x5B88;&#x5404;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&#x7684;&#x547D;&#x540D;&#x7EA6;&#x5B9A;&#x6765;&#x6620;&#x5C04;&#x5230;&#x751F;&#x6210;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x3002;</p>
+<h2 id="&#x91CD;&#x590D;&#x5B57;&#x6BB5;&#x540D;&#xFF08;repeated-field&#xFF09;">&#x91CD;&#x590D;&#x5B57;&#x6BB5;&#x540D;&#xFF08;Repeated field&#xFF09;</h2>
+<p>API &#x4E2D;&#x7684;&#x91CD;&#x590D;&#x5B57;&#x6BB5; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4F7F;&#x7528;&#x5408;&#x9002;&#x7684;&#x590D;&#x6570;&#x5F62;&#x5F0F;&#x3002;&#x8FD9;&#x7B26;&#x5408;&#x73B0;&#x6709; <a href="glossary.html#google-api" class="glossary-term" title="Google &#x670D;&#x52A1;&#x7684;&#x7F51;&#x7EDC; API&#x3002;&#x5927;&#x90E8;&#x5206;&#x5728; googleapis.com &#x57DF;&#x540D;&#x4E0A;&#x3002;&#x4E0D;&#x5305;&#x62EC;&#x5BA2;&#x6237;&#x7AEF;&#x5E93;&#x548C; SDK &#x7B49;&#x5176;&#x4ED6;&#x7C7B;&#x578B;&#x7684; API&#x3002;">Google API</a> &#x7684;&#x60EF;&#x4F8B;&#x4EE5;&#x53CA;&#x5916;&#x90E8;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x7684;&#x901A;&#x5E38;&#x671F;&#x671B;&#x3002;</p>
+<h2 id="&#x65F6;&#x95F4;&#x548C;&#x95F4;&#x9694;">&#x65F6;&#x95F4;&#x548C;&#x95F4;&#x9694;</h2>
+<p><strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>google.protobuf.Timestamp</code> &#x5E76;&#x4E14;&#x5B57;&#x6BB5;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4EE5; <code>time</code> &#x7ED3;&#x5C3E;&#x6765;&#x8868;&#x793A;&#x72EC;&#x7ACB;&#x4E8E;&#x4EFB;&#x4E00;&#x65F6;&#x533A;&#x7684;&#x65F6;&#x95F4;&#x70B9;&#x3002;&#x4F8B;&#x5982; <code>start_time</code>, <code>end_time</code>&#x3002;</p>
+<p>&#x5982;&#x679C;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x6D3B;&#x52A8;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x5B57;&#x6BB5;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>verb_time</code> &#x683C;&#x5F0F;&#xFF0C;&#x5982; <code>create_time</code>, <code>update_time</code>&#x3002;&#x907F;&#x514D;&#x4F7F;&#x7528;&#x52A8;&#x8BCD;&#x7684;&#x8FC7;&#x53BB;&#x65F6;&#x5F62;&#x5F0F;&#xFF0C;&#x5982; <code>created_time</code> &#x6216; <code>last_updated_time</code>&#x3002;</p>
+<p><strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>google.protobuf.Duration</code> &#x6765;&#x8868;&#x793A;&#x4E00;&#x4E2A;&#x65F6;&#x95F4;&#x6BB5;&#x3002;</p>
+<pre><code>message FlightRecord {
+  google.protobuf.Timestamp takeoff_time = 1;
+  google.protobuf.Duration flight_duration = 2;
+}
+</code></pre><p>&#x5982;&#x679C;&#x56E0;&#x4E3A;&#x9057;&#x7559;&#x7CFB;&#x7EDF;&#x6216;&#x517C;&#x5BB9;&#x539F;&#x56E0;&#x8981;&#x4F7F;&#x7528;&#x6574;&#x5F62;&#x6765;&#x8868;&#x793A;&#x65F6;&#x95F4;&#x76F8;&#x5173;&#x7684;&#x5B57;&#x6BB5;&#xFF08;&#x5305;&#x542B;&#x5899;&#x4E0A;&#x65F6;&#x95F4;&#x3001;&#x65F6;&#x95F4;&#x6BB5;&#x3001;&#x5EF6;&#x8FDF;&#xFF09;&#xFF0C;&#x5B57;&#x6BB5;&#x540D; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x6709;&#x5982;&#x4E0B;&#x5F62;&#x5F0F;&#xFF1A;</p>
+<pre><code>xxx_{time|duration|delay|latency}_{seconds|millis|micros|nanos}
+</code></pre><pre><code>message Email {
+  int64 send_time_millis = 1;
+  int64 receive_time_millis = 2;
+}
+</code></pre><p>&#x5982;&#x679C;&#x56E0;&#x4E3A;&#x9057;&#x7559;&#x7CFB;&#x7EDF;&#x6216;&#x517C;&#x5BB9;&#x539F;&#x56E0;&#x8981;&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x6765;&#x8868;&#x793A;&#x65F6;&#x95F4;&#x6233;&#xFF0C;&#x5B57;&#x6BB5;&#x540D; <strong>&#x4E0D;&#x5E94;&#x8BE5;&#xFF08;should not&#xFF09;</strong> &#x5305;&#x542B;&#x4EFB;&#x4F55;&#x5355;&#x4F4D;&#x540E;&#x7F00;&#x3002;<strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x5F62;&#x5982; <code>2014-07-30T10:43:17Z</code> &#x7684; RFC 3339 &#x683C;&#x5F0F;&#x3002;</p>
+<h2 id="&#x65E5;&#x671F;&#x4E0E;&#x65F6;&#x95F4;">&#x65E5;&#x671F;&#x4E0E;&#x65F6;&#x95F4;</h2>
+<p><strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>google.type.Date</code> &#x5E76;&#x4E14;&#x5B57;&#x6BB5;&#x540D;&#x4EE5; <code>_date</code> &#x7ED3;&#x5C3E;&#x6765;&#x8868;&#x793A;&#x72EC;&#x7ACB;&#x4E8E;&#x65F6;&#x533A;&#x4E0E;&#x65F6;&#x95F4;&#x7684;&#x65E5;&#x671F;&#x3002;&#x5982;&#x679C;&#x5FC5;&#x987B;&#x4EE5;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;&#x5F62;&#x5982; <code>YYYY-MM-DD</code> &#x7684; <code>ISO 8601</code> &#x65E5;&#x671F;&#x683C;&#x5F0F;&#xFF08;&#x4F8B;&#x5982; <code>2014-07-30</code>&#xFF09;&#x3002;</p>
+<p><strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>google.type.TimeOfDay</code> &#x5E76;&#x4E14;&#x5B57;&#x6BB5;&#x540D;&#x4EE5; <code>_time</code> &#x7ED3;&#x5C3E;&#x6765;&#x8868;&#x793A;&#x72EC;&#x7ACB;&#x4E8E;&#x65F6;&#x533A;&#x4E0E;&#x65E5;&#x671F;&#x7684;&#x65F6;&#x95F4;&#x3002;&#x5982;&#x679C;&#x5FC5;&#x987B;&#x4EE5;&#x5B57;&#x7B26;&#x4E32;&#x8868;&#x793A;&#xFF0C;&#x5E94;&#x8BE5;&#x4F7F;&#x7528;&#x5F62;&#x5982; <code>HH:MM:SS[.FFF]</code> &#x7684; ISO 8601 &#x7684; 24 &#x5C0F;&#x65F6;&#x65F6;&#x95F4;&#x683C;&#x5F0F;&#xFF08;&#x4F8B;&#x5982; <code>14:55:01.672</code>&#xFF09;&#x3002;</p>
+<pre><code>message StoreOpening {
+  google.type.Date opening_date = 1;
+  google.type.TimeOfDay opening_time = 2;
+}
+</code></pre><h2 id="&#x6570;&#x91CF;">&#x6570;&#x91CF;</h2>
+<p>&#x4EE5;&#x6574;&#x5F62;&#x8868;&#x793A;&#x7684;&#x6570;&#x91CF; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x5305;&#x542B;&#x5355;&#x4F4D;&#x3002;</p>
+<pre><code>xxx_{bytes|width_pixels|meters}
+</code></pre><p>&#x5982;&#x679C;&#x8868;&#x793A;&#x7269;&#x54C1;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x5B57;&#x6BB5;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; <code>_count</code> &#x505A;&#x4E3A;&#x540E;&#x7F00;&#xFF0C;&#x5982; <code>node_count</code>&#x3002;</p>
+<h2 id="list-&#x8FC7;&#x6EE4;&#x5B57;&#x6BB5;">List &#x8FC7;&#x6EE4;&#x5B57;&#x6BB5;</h2>
+<p>&#x5982;&#x679C; <code>List</code> &#x65B9;&#x6CD5;&#x652F;&#x6301;&#x8FC7;&#x6EE4;&#x8D44;&#x6E90;&#xFF0C;&#x5305;&#x542B;&#x8FC7;&#x6EE4;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x5B57;&#x6BB5; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x547D;&#x540D;&#x4E3A; <code>filter</code>&#x3002;&#x4F8B;&#xFF1A;</p>
+<pre><code>message ListBooksRequest {
+  // &#x7236;&#x8D44;&#x6E90;&#x540D;
+  string parent = 1;
+  // &#x8FC7;&#x6EE4;&#x8868;&#x8FBE;&#x5F0F;
+  string filter = 2;
+}
+</code></pre><h2 id="list-&#x54CD;&#x5E94;">List &#x54CD;&#x5E94;</h2>
+<p><code>List</code> &#x65B9;&#x6CD5;&#x7684;&#x54CD;&#x5E94;&#x6D88;&#x606F;&#x4E2D;&#x5305;&#x542B;&#x8D44;&#x6E90;&#x5217;&#x8868;&#x7684;&#x5B57;&#x6BB5;&#x540D;&#x5B57; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x662F;&#x8D44;&#x6E90;&#x540D;&#x7684;&#x590D;&#x6570;&#x5F62;&#x5F0F;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x65B9;&#x6CD5; <code>CalendarApi.ListEvents()</code> <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x5B9A;&#x4E49;&#x54CD;&#x5E94;&#x6D88;&#x606F; <code>ListEventsResponse</code>&#xFF0C;&#x6B64;&#x6D88;&#x606F;&#x4E2D;&#x5305;&#x542B;&#x540D;&#x4E3A; <code>events</code> &#x7684;&#x91CD;&#x590D;&#x5B57;&#x6BB5;&#x6765;&#x7528;&#x4E8E;&#x8FD4;&#x56DE;&#x8D44;&#x6E90;&#x5217;&#x8868;&#x3002;</p>
+<pre><code>service CalendarApi {
+  rpc ListEvents(ListEventsRequest) returns (ListEventsResponse) {
+    option (google.api.http) = {
+      get: &quot;/v3/{parent=calendars/*}/events&quot;;
+    };
+  }
+}
+message ListEventsRequest {
+  string parent = 1;
+  int32 page_size = 2;
+  string page_token = 3;
+}
+message ListEventsResponse {
+  repeated Event events = 1;
+  string next_page_token = 2;
+}
+</code></pre><h2 id="&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;">&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;</h2>
+<p>&#x9664;&#x4E86;&#x5B57;&#x6BB5;&#x540D;&#x548C;&#x679A;&#x4E3E;&#x503C;&#xFF0C;&#x5728; <code>.proto</code> &#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x5B9A;&#x4E49; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4F7F;&#x7528;&#x9996;&#x5B57;&#x6BCD;&#x5927;&#x5199;&#x7684;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x6CD5;&#x3002;</p>
+<h2 id="&#x540D;&#x5B57;&#x7F29;&#x5199;">&#x540D;&#x5B57;&#x7F29;&#x5199;</h2>
+<p>&#x5BF9;&#x4E8E;&#x50CF; <code>config</code> &#x548C; <code>spec</code> &#x8FD9;&#x79CD;&#x88AB;&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;&#x5E08;&#x719F;&#x77E5;&#x7684;&#x7F29;&#x5199;&#xFF0C;&#x5728; API &#x5B9A;&#x4E49;&#x4E2D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x7F29;&#x5199;&#x800C;&#x4E0D;&#x662F;&#x5176;&#x5B8C;&#x6574;&#x5F62;&#x5F0F;&#xFF0C;&#x8FD9;&#x4F1A;&#x4F7F;&#x4EE3;&#x7801;&#x4FBF;&#x4E8E;&#x8BFB;&#x5199;&#x3002;&#x5728;&#x6B63;&#x5F0F;&#x7684;&#x6587;&#x6863;&#x4E2D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x5176;&#x5B8C;&#x6574;&#x5F62;&#x5F0F;&#x3002;&#x4F8B;&#x5982;&#xFF1A;</p>
+<ul>
+<li>config (configuration)</li>
+<li>id (identifier)</li>
+<li>spec (specification)</li>
+<li>stats (statistics)</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="errors.html" class="navigation navigation-prev " aria-label="Previous page: 错误处理">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="design-patterns.html" class="navigation navigation-next " aria-label="Next page: 设计模式">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"命名约定","level":"1.8","depth":1,"next":{"title":"设计模式","level":"1.9","depth":1,"path":"design-patterns.md","ref":"design-patterns.md","articles":[]},"previous":{"title":"错误处理","level":"1.7","depth":1,"path":"errors.md","ref":"errors.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"naming-conventions.md","mtime":"2017-07-01T15:20:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-01T13:11:23.005Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

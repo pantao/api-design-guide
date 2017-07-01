@@ -1,0 +1,565 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>自定义方法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="standard-fields.html" />
+    
+    
+    <link rel="prev" href="standard-methods.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="resource-oriented-design.html">
+            
+                <a href="resource-oriented-design.html">
+            
+                    
+                    面向资源的设计
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="resource-names.html">
+            
+                <a href="resource-names.html">
+            
+                    
+                    资源名称
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="standard-methods.html">
+            
+                <a href="standard-methods.html">
+            
+                    
+                    标准方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.5" data-path="custom-methods.html">
+            
+                <a href="custom-methods.html">
+            
+                    
+                    自定义方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="standard-fields.html">
+            
+                <a href="standard-fields.html">
+            
+                    
+                    标准字段
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="errors.html">
+            
+                <a href="errors.html">
+            
+                    
+                    错误处理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="naming-conventions.html">
+            
+                <a href="naming-conventions.html">
+            
+                    
+                    命名约定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="design-patterns.html">
+            
+                <a href="design-patterns.html">
+            
+                    
+                    设计模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="documentation.html">
+            
+                <a href="documentation.html">
+            
+                    
+                    文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="proto3.html">
+            
+                <a href="proto3.html">
+            
+                    
+                    使用 proto3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="versioning.html">
+            
+                <a href="versioning.html">
+            
+                    
+                    版本控制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="compatibility.html">
+            
+                <a href="compatibility.html">
+            
+                    
+                    兼容性
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="directory-structure.html">
+            
+                <a href="directory-structure.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="file-structure.html">
+            
+                <a href="file-structure.html">
+            
+                    
+                    文件结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="glossary.html">
+            
+                <a href="glossary.html">
+            
+                    
+                    词汇表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <span>
+            
+                    
+                    附录
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="rfc2119.html">
+            
+                <a href="rfc2119.html">
+            
+                    
+                    RFC2119
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >自定义方法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;">&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;</h1>
+<p>&#x6B64;&#x7BC7;&#x6587;&#x7AE0;&#x8BA8;&#x8BBA;&#x5982;&#x4F55;&#x5728; API &#x8BBE;&#x8BA1;&#x4E2D;&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x3002;</p>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x6307;&#x4E94;&#x4E2A;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x4E4B;&#x5916;&#x7684; API &#x65B9;&#x6CD5;&#x3002;<strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x53EA;&#x6709;&#x5F53;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x4E0D;&#x80FD;&#x5B8C;&#x6210;&#x9700;&#x8981;&#x7684;&#x529F;&#x80FD;&#x65F6;&#x624D;&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x3002;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;API &#x8BBE;&#x8BA1;&#x8005; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x5728;&#x53EF;&#x884C;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x9009;&#x62E9;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x3002;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x6709;&#x66F4;&#x7B80;&#x6D01;&#x548C;&#x660E;&#x786E;&#x5B9A;&#x4E49;&#x7684;&#x8BED;&#x4E49;&#x5E76;&#x4E14;&#x88AB;&#x5927;&#x591A;&#x6570;&#x5F00;&#x53D1;&#x8005;&#x719F;&#x77E5;&#xFF0C;&#x6240;&#x4EE5;&#x5B83;&#x4EEC;&#x66F4;&#x6613;&#x4E8E;&#x4F7F;&#x7528;&#x5E76;&#x4E14;&#x4E0D;&#x6613;&#x51FA;&#x9519;&#x3002;&#x53E6;&#x4E00;&#x4E2A;&#x4F18;&#x52BF;&#x662F; API &#x5E73;&#x53F0;&#x5BF9;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x7684;&#x652F;&#x6301;&#x66F4;&#x597D;&#xFF0C;&#x6BD4;&#x5982;&#x8BA1;&#x8D39;&#x3001;&#x9519;&#x8BEF;&#x5904;&#x7406;&#x3001;&#x65E5;&#x5FD7;&#x548C;&#x76D1;&#x63A7;&#x3002;</p>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x88AB;&#x5173;&#x8054;&#x5230;&#x8D44;&#x6E90;&#x3001;&#x96C6;&#x5408;&#x6216;&#x670D;&#x52A1;&#x3002;&#x5B83; <strong>&#x53EF;&#x4EE5;&#xFF08;may&#xFF09;</strong> &#x63A5;&#x6536;&#x4EFB;&#x610F;&#x8BF7;&#x6C42;&#x5E76;&#x8FD4;&#x56DE;&#x4EFB;&#x610F;&#x54CD;&#x5E94;&#xFF0C;&#x5E76;&#x4E14;&#x4E5F;&#x53EF;&#x4EE5;&#x652F;&#x6301;&#x6D41;&#x5F0F;&#x8BF7;&#x6C42;&#x4E0E;&#x54CD;&#x5E94;&#x3002;</p>
+<h2 id="http-&#x6620;&#x5C04;">HTTP &#x6620;&#x5C04;</h2>
+<p>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528;&#x5982;&#x4E0B;&#x7684;&#x901A;&#x7528;&#x6620;&#x5C04;&#x65B9;&#x6CD5;&#xFF1A;</p>
+<pre><code>https://service.name/v1/some/resource/name:customVerb
+</code></pre><p>&#x4F7F;&#x7528; <code>:</code> &#x4EE3;&#x66FF; <code>/</code> &#x6765;&#x5206;&#x9694;&#x8D44;&#x6E90;&#x540D;&#x4E0E;&#x81EA;&#x5B9A;&#x4E49;&#x52A8;&#x8BCD;&#x662F;&#x4E3A;&#x4E86;&#x652F;&#x6301;&#x4EFB;&#x610F; <code>path</code> &#x53C2;&#x6570;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;<em>&#x53D6;&#x6D88;&#x5220;&#x9664;&#xFF08;undelete&#xFF09;</em> &#x6587;&#x4EF6;&#x80FD;&#x6620;&#x5C04;&#x4E3A; <code>POST /files/a/long/file/name:undelete</code>&#x3002;</p>
+<p>&#x9009;&#x62E9; HTTP &#x6620;&#x5C04;&#x65F6; <strong>&#x5FC5;&#x987B;&#xFF08;shall&#xFF09;</strong> &#x9075;&#x5B88;&#x5982;&#x4E0B;&#x6307;&#x5357;&#xFF1A;</p>
+<ul>
+<li>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x4F7F;&#x7528; HTTP <code>POST</code> &#x52A8;&#x8BCD;&#xFF0C;&#x56E0;&#x4E3A; <code>POST</code> &#x6709;&#x66F4;&#x52A0;&#x7075;&#x6D3B;&#x7684;&#x8BED;&#x4E49;</li>
+<li>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5; <strong>&#x4E0D;&#x5E94;&#x8BE5;&#xFF08;should not&#xFF09;</strong> &#x4F7F;&#x7528; HTTP <code>PATCH</code>&#xFF0C;&#x4F46; <strong>&#x53EF;&#x4EE5;&#xFF08;may&#xFF09;</strong> &#x4F7F;&#x7528;&#x5176;&#x5B83; HTTP &#x52A8;&#x8BCD;&#x3002;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x65B9;&#x6CD5; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x9075;&#x5FAA;&#x8BE5;&#x52A8;&#x8BCD;&#x7684;&#x6807;&#x51C6; HTTP &#x8BED;&#x4E49;</li>
+<li>&#x6CE8;&#x610F;&#xFF0C;&#x4F7F;&#x7528; HTTP <code>GET</code> &#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x662F;<strong>&#x5E42;&#x7B49;&#x7684;&#x5E76;&#x4E14;&#x4E0D;&#x80FD;&#x6709;&#x526F;&#x4F5C;&#x7528;</strong>&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5728;&#x8D44;&#x6E90;&#x4E0A;&#x5B9E;&#x73B0;&#x7279;&#x6B8A;&#x67E5;&#x8BE2;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x5E94;&#x8BE5;&#x4F7F;&#x7528; HTTP <code>GET</code>&#x3002;</li>
+<li>&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x4E2D;&#x5F85;&#x64CD;&#x4F5C;&#x7684;&#x8D44;&#x6E90;&#x6216;&#x96C6;&#x5408;&#x540D; <strong>&#x5E94;&#x8BE5;&#xFF08;should&#xFF09;</strong> &#x6620;&#x5C04;&#x5230; URL <code>path</code> &#x53C2;&#x6570;</li>
+<li>URL path <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4EE5;&#x5192;&#x53F7;&#x52A0;&#x4E0A;&#x81EA;&#x5B9A;&#x4E49;&#x52A8;&#x8BCD;&#x505A;&#x4E3A;&#x540E;&#x7F00;</li>
+<li>&#x5982;&#x679C;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x7684; HTTP &#x52A8;&#x8BCD;&#x5141;&#x8BB8; HTTP &#x8BF7;&#x6C42;&#x4F53;&#xFF08;<code>POST</code>&#x3001;<code>PUT</code>&#x3001;<code>PATCH</code>&#x6216;&#x81EA;&#x5B9A;&#x4E49;&#x7684; HTTP &#x52A8;&#x8BCD;&#xFF09;&#xFF0C;&#x8FD9;&#x4E9B;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x7684; HTTP &#x914D;&#x7F6E; <strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x4F7F;&#x7528; <code>body: &quot;*&quot;</code> &#x5E76;&#x4E14;&#x6240;&#x6709;&#x5269;&#x4F59;&#x7684;&#x8BF7;&#x6C42;&#x4FE1;&#x606F; <strong>&#x5FC5;&#x987B;&#xFF08;shall&#xFF09;</strong> &#x6620;&#x5C04;&#x5230; HTTP &#x8BF7;&#x6C42;&#x4F53;&#x4E2D;</li>
+<li>&#x5982;&#x679C;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x4F7F;&#x7528;&#x7684; HTTP &#x52A8;&#x8BCD;&#x4E0D;&#x5141;&#x8BB8; HTTP &#x8BF7;&#x6C42;&#x4F53;&#xFF08;<code>GET</code>&#x3001;<code>DELETE</code>&#xFF09;&#xFF0C;&#x8FD9;&#x4E9B;&#x65B9;&#x6CD5;&#x7684; HTTP &#x914D;&#x7F6E; <strong>&#x4E00;&#x5B9A;&#x4E0D;&#x8981;&#xFF08;must not&#xFF09;</strong> &#x4F7F;&#x7528; <code>body</code>&#xFF0C;&#x6240;&#x6709;&#x5269;&#x4F59;&#x7684;&#x8BF7;&#x6C42;&#x4FE1;&#x606F; <strong>&#x5FC5;&#x987B;&#xFF08;shall&#xFF09;</strong> &#x6620;&#x5C04;&#x5230; HTTP <code>query</code> &#x53C2;&#x6570;&#x4E2D;</li>
+</ul>
+<p>&#x8B66;&#x544A;&#xFF1A;&#x5982;&#x679C;&#x670D;&#x52A1;&#x5B9E;&#x73B0;&#x591A;&#x4E2A; API&#xFF0C;<strong>&#x5FC5;&#x987B;&#xFF08;must&#xFF09;</strong> &#x5C0F;&#x5FC3;&#x5730;&#x521B;&#x5EFA;&#x670D;&#x52A1;&#x914D;&#x7F6E;&#x4EE5;&#x907F;&#x514D; API &#x95F4;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x52A8;&#x8BCD;&#x51B2;&#x7A81;&#x3002;</p>
+<pre><code>// &#x670D;&#x52A1;&#x7EA7;&#x522B;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+rpc Watch(WatchRequest) returns (WatchResponse) {
+  // &#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x6620;&#x5C04;&#x5230; HTTP POST&#xFF0C;&#x6240;&#x6709;&#x53C2;&#x6570;&#x653E;&#x5230;&#x8BF7;&#x6C42;&#x4F53;&#x4E2D;
+  option (google.api.http) = {
+    post: &quot;/v1:watch&quot;
+    body: &quot;*&quot;
+  };
+}
+// &#x96C6;&#x5408;&#x7EA7;&#x522B;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+rpc ClearEvents(ClearEventsRequest) returns (ClearEventsResponse) {
+  option (google.api.http) = {
+    post: &quot;/v3/events:clear&quot;
+    body: &quot;*&quot;
+  };
+}
+// &#x8D44;&#x6E90;&#x7EA7;&#x522B;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+rpc CancelEvent(CancelEventRequest) returns (CancelEventResponse) {
+  option (google.api.http) = {
+    post: &quot;/v3/{name=events/*}:cancel&quot;
+    body: &quot;*&quot;
+  };
+}
+// &#x7528;&#x4E8E;&#x6279;&#x91CF; get &#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+rpc BatchGetEvents(BatchGetEventsRequest) returns (BatchGetEventsResponse) {
+  // &#x6279;&#x91CF; get &#x65B9;&#x6CD5;&#x6620;&#x5C04;&#x5230; HTTP GET
+  option (google.api.http) = {
+    get: &quot;/v3/events:batchGet&quot;
+  };
+}
+</code></pre><h2 id="&#x7528;&#x4F8B;">&#x7528;&#x4F8B;</h2>
+<p>&#x4E00;&#x4E9B;&#x53EF;&#x9009;&#x62E9;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x7684;&#x5176;&#x4ED6;&#x60C5;&#x51B5;&#xFF1A;</p>
+<ul>
+<li><strong>&#x91CD;&#x542F;&#x865A;&#x62DF;&#x673A;</strong>&#xFF1A; &#x8BBE;&#x8BA1;&#x7684;&#x5907;&#x9009;&#x65B9;&#x6848;&#x53EF;&#x4EE5;&#x662F;&#x201C;&#x5728;&#x91CD;&#x542F;&#x8D44;&#x6E90;&#x96C6;&#x5408;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x91CD;&#x542F;&#x8D44;&#x6E90;&#x201D;&#xFF08;&#x8FC7;&#x4E8E;&#x590D;&#x6742;&#xFF09;&#x6216;&#x8005;&#x201C;&#x865A;&#x62DF;&#x673A;&#x5177;&#x6709;&#x53EF;&#x53D8;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x80FD;&#x591F;&#x5C06;&#x5176;&#x4ECE;&#x8FD0;&#x884C;&#x4E2D;&#x6539;&#x53D8;&#x4E3A;&#x91CD;&#x542F;&#x4E2D;&#x201D;&#xFF08;&#x4F1A;&#x5F15;&#x5165;&#x66F4;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x6BD4;&#x5982;&#x662F;&#x5426;&#x6709;&#x5176;&#x4ED6;&#x72B6;&#x6001;&#x95F4;&#x7684;&#x8F6C;&#x53D8;&#xFF09;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x91CD;&#x542F;&#x662F;&#x4E00;&#x4E2A;&#x88AB;&#x719F;&#x77E5;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x80FD;&#x591F;&#x5F88;&#x597D;&#x5730;&#x8F6C;&#x6362;&#x4E3A;&#x6EE1;&#x8DB3;&#x5F00;&#x53D1;&#x8005;&#x9700;&#x6C42;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;</li>
+<li><strong>&#x53D1;&#x9001;&#x90AE;&#x4EF6;</strong>&#xFF1A; &#x521B;&#x5EFA;&#x90AE;&#x4EF6;&#x4FE1;&#x606F;&#x5E76;&#x4E0D;&#x4E00;&#x5B9A;&#x8981;&#x5C06;&#x5B83;&#x53D1;&#x9001;&#x51FA;&#x53BB;&#xFF08;&#x8349;&#x7A3F;&#xFF09;&#x3002;&#x76F8;&#x5BF9;&#x4E8E;&#x5907;&#x9009;&#x65B9;&#x6848;&#xFF08;&#x5C06;&#x6D88;&#x606F;&#x79FB;&#x52A8;&#x5230; Outbox &#x96C6;&#x5408;&#xFF09;&#xFF0C;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x7684;&#x4F18;&#x70B9;&#x662F;&#x53EF;&#x4EE5;&#x88AB; API &#x7528;&#x6237;&#x66F4;&#x591A;&#x5730;&#x53D1;&#x73B0;&#x5E76;&#x4E14;&#x66F4;&#x76F4;&#x63A5;&#x5730;&#x7406;&#x89E3;&#x5B83;&#x7684;&#x6982;&#x5FF5;</li>
+<li><strong>&#x5458;&#x5DE5;&#x664B;&#x7EA7;</strong>&#xFF1A; &#x5982;&#x679C;&#x4F7F;&#x7528;&#x6807;&#x51C6;&#x7684; <code>update</code> &#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x5FC5;&#x987B;&#x91CD;&#x590D;&#x8FDB;&#x884C;&#x7BA1;&#x7406;&#x6D41;&#x7A0B;&#x7684;&#x7B56;&#x7565;&#x6765;&#x4FDD;&#x8BC1;&#x6B63;&#x786E;&#x7684;&#x664B;&#x7EA7;</li>
+</ul>
+<p>&#x4E00;&#x4E9B;&#x6807;&#x51C6;&#x65B9;&#x6CD5;&#x6BD4;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x66F4;&#x597D;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p>
+<ul>
+<li>&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x53C2;&#x6570;&#x67E5;&#x8BE2;&#x8D44;&#x6E90;&#xFF08;&#x4F7F;&#x7528;&#x6807;&#x51C6;&#x7684; <code>list</code> &#x65B9;&#x6CD5;&#x548C;&#x8FC7;&#x6EE4;&#xFF09;</li>
+<li>&#x7B80;&#x5355;&#x7684;&#x8D44;&#x6E90;&#x4FEE;&#x6539;&#xFF08;&#x4F7F;&#x7528;&#x5E26;&#x6709;&#x5B57;&#x6BB5;&#x63A9;&#x7801;&#x7684;&#x6807;&#x51C6; <code>update</code> &#x65B9;&#x6CD5;&#xFF09;</li>
+<li>&#x64A4;&#x6D88;&#x901A;&#x77E5;&#xFF08;&#x4F7F;&#x7528;&#x6807;&#x51C6;&#x7684; <code>delete</code> &#x65B9;&#x6CD5;&#xFF09;</li>
+</ul>
+<h2 id="&#x901A;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;">&#x901A;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;</h2>
+<p>&#x5E38;&#x7528;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;&#x540D;&#x79F0;&#x5217;&#x8868;&#x5982;&#x4E0B;&#x3002; API &#x8BBE;&#x8BA1;&#x8005;&#x5728;&#x5F15;&#x5165;&#x81EA;&#x5DF2;&#x7684;&#x540D;&#x79F0;&#x4E4B;&#x524D;&#x5E94;&#x8BE5;&#x8003;&#x8651;&#x8FD9;&#x4E9B;&#x540D;&#x79F0;&#xFF0C;&#x4EE5;&#x4FBF;&#x4E8E;&#x8DE8; API &#x7684;&#x4E00;&#x81F4;&#x6027;</p>
+<table>
+<thead>
+<tr>
+<th>&#x65B9;&#x6CD5;&#x540D;</th>
+<th>&#x81EA;&#x5B9A;&#x4E49;&#x52A8;&#x8BCD;</th>
+<th>HTTP &#x52A8;&#x8BCD;</th>
+<th>&#x5907;&#x6CE8;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Canecl</td>
+<td>:cancel</td>
+<td>POST</td>
+<td>&#x53D6;&#x6D88;&#x672A;&#x5B8C;&#x6210;&#x7684;&#x64CD;&#x4F5C;&#xFF08;&#x6784;&#x5EFA;&#x3001;&#x8BA1;&#x7B97;&#x7B49;&#xFF09;</td>
+</tr>
+<tr>
+<td>BatchGet&lt;&#x590D;&#x6570;&#x540D;&#x8BCD;&gt;</td>
+<td>:batchGet</td>
+<td>POST</td>
+<td>&#x6279;&#x91CF;&#x53D6;&#x5F97;&#x591A;&#x4E2A;&#x8D44;&#x6E90;&#xFF08;&#x8BE6;&#x60C5;&#x8BF7;&#x67E5;&#x770B; <a href="standard-methods.html">List &#x7684;&#x63CF;&#x8FF0;</a>&#xFF09;</td>
+</tr>
+<tr>
+<td>Move</td>
+<td>:move</td>
+<td>GET</td>
+<td>&#x5C06;&#x8D44;&#x6E90;&#x4ECE;&#x4E00;&#x4E2A;&#x7236;&#x8D44;&#x6E90;&#x79FB;&#x52A8;&#x5230;&#x53E6;&#x4E00;&#x4E2A;&#x4E2D;</td>
+</tr>
+<tr>
+<td>Search</td>
+<td>:search</td>
+<td>GET</td>
+<td>&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x4E0D;&#x7B26;&#x5408; List &#x8BED;&#x4E49;&#x7684;&#x6570;&#x636E;</td>
+</tr>
+<tr>
+<td>Undelete</td>
+<td>:undelete</td>
+<td>POST</td>
+<td>&#x6062;&#x590D;&#x4EE5;&#x524D;&#x5220;&#x9664;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x63A8;&#x8350;&#x7684;&#x4FDD;&#x7559;&#x671F;&#x4E3A;30&#x5929;</td>
+</tr>
+</tbody>
+</table>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="standard-methods.html" class="navigation navigation-prev " aria-label="Previous page: 标准方法">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="standard-fields.html" class="navigation navigation-next " aria-label="Next page: 标准字段">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"自定义方法","level":"1.5","depth":1,"next":{"title":"标准字段","level":"1.6","depth":1,"path":"standard-fields.md","ref":"standard-fields.md","articles":[]},"previous":{"title":"标准方法","level":"1.4","depth":1,"path":"standard-methods.md","ref":"standard-methods.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"custom-methods.md","mtime":"2017-07-01T14:30:44.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-07-01T13:11:23.005Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
